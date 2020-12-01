@@ -2,7 +2,7 @@ module.exports = {
   production: {
     username: 'Jose_Eduardo',
     password: 'Bernadete1',
-    database: 'usuario ',
+    database: 'usuario',
     host: 'sitepessoal.database.windows.net',
     dialect: 'mssql',
     xuse_env_variable: 'DATABASE_URL',
@@ -11,7 +11,7 @@ module.exports = {
         encrypt: true
       }
     },
-    pool: { 
+    pool: {
       max: 5,
       min: 1,
       acquire: 5000,
@@ -20,4 +20,4 @@ module.exports = {
     }
   }
 };
- 
+
